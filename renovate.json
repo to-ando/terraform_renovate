@@ -1,0 +1,12 @@
+{
+    "extends": [
+      "config:base"
+    ],
+    "packageRules": [
+      {
+          "matchPackageNames": ["azurerm"],
+          "addLabels": ["terraform-provider-version"],
+          "branchPrefix": "renovate/terraform-provider-version/"
+      }
+    ]
+  }
